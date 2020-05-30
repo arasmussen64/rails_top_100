@@ -1,3 +1,3 @@
 class Billboard < ApplicationRecord
-  has_many :artist, dependent: :destroy
+  has_many :artists, dependent: :destroy
 end
